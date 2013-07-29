@@ -11,38 +11,38 @@ If you're calling from...<br/>
 Email:<br/>
 <span style="color: #00CC00">john</span> /<strong>at</strong>/ <span style="color: #00CC00">johndietrick</span> /<strong>dot</strong>/ <span style="color: #00CC00">com</span>
 <br/><br/>
-GPG key:<br/><br/>
+GPG key:
 <pre class="sourceCode C"><code class="sourceCode C">
-        -----BEGIN PGP PUBLIC KEY BLOCK-----
-        Version: GnuPG v1.4.11 (GNU/Linux)
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Version: GnuPG v1.4.11 (GNU/Linux)
 
-        mQENBFH18vABCADqr55WHmv7NpWmQBBCI71koEKB7hNAdOJebc4IsqsVRuM+v3jq
-        SQycifgtYVlBes1JzvA/d29uslVt2ppVuUpU+runvyRiF2FHYjVrBkdovILo33oi
-        IgrpJpYrZI4p1QEvf+S8nvNVerlEXWONAVR1Pr0B00dFgXyv21sKoeTFU3+4x/4i
-        /UhF/kQX/09JUFiI9NlFFPVUMsD8mYUqU+P0zYfW86bcIUQ8o4IBWM0a/7+8NaHX
-        T287VooaHztdFF57AeUKH0jDMtdzgK4ohgYN+2jjaXxNlrSGKEjhNcA3K3CEOezi
-        e4PHAfQvuqw9YtmNeRB6YTIc2knY6D7zNlCBABEBAAG0J0pvaG4gUiBEaWV0cmlj
-        ayA8am9obkBqb2huZGlldHJpY2suY29tPokBOAQTAQIAIgUCUfXy8AIbAwYLCQgH
-        AwIGFQgCCQoLBBYCAwECHgECF4AACgkQqfBQsYI/NyCqngf+PVYjsciCRulnwVZH
-        jrw3Fa+H4z1cL2x4b5gk652aAAT2T1eqvW80+O6idD5EfXbMqSgqokx/9qIeRHlI
-        vGIhEtDyiBhICB7jMsvuSVkB2u17saHBUi40ULAq9fxFahWnr1Vl+99wlzUFgiOb
-        0ZXgVkC+ZRs5HoOe6HlFRlyIYq/fDa1ecos/i7YCNEKlEkb2df2+UqFRaeHWTGT2
-        xCzY7LnHRQv3i2F2ktThMlmR3Hwzatx+Xpm6jAV0HIF73RVficuOqeHaR6LireIw
-        FDNl8ro0b7fZOC6c+IwXwFwP5s5dYe87eV15dhgpOwfkRq3/fR/FooPBP3NJ+/jD
-        vxBlNrkBDQRR9fLwAQgAt2q1V4IchQxijPG/K/MrnlaoxppwV6BA1tdDsBq1KGUx
-        cdvQMDwC7LgotqRtFE4JYgHt81jeUUKBxmlCPg/BobS0QXB88ybsXmuzGnm5mzxY
-        3HY19KrMY4CkyfIwZ8wwWFKjgrLEev0TlyQRKlLS+1kOzazPEf2HGu+8kRl+UW+A
-        PW/sYflV9O6NRRsnElSsanc/oFtpM4Vy7UebisnlHVqoR6Z7oY0oU+TClVa0JRWQ
-        H02udknIqSGLSsZpgEz0uKuMgBKFDud+dZ0WtOMVLza9zCRYKvaLi2QUoEcIZo4g
-        vzyJs5rkVEiw7aGvsWTys7jwBdr1eJPu1zkEXuwxwwARAQABiQEfBBgBAgAJBQJR
-        9fLwAhsMAAoJEKnwULGCPzcggw8H/AgpA3nZDnIJxiLXv5eWIR8WzYUGWaEDP0kI
-        tUzy7TnzBvju95B8NpnVfliRMfQg6PksPWq9VN9qSmnw2+ww6y2cgNot14K7wMZQ
-        OMTrMsa6rs+PltG3h78Ra+Z6vx3YX6lM/vFV07N+BbfrnIDdDxwf4bBp7wNKOz6D
-        geGbdOBz9SeISKi/4QAf3XsEoAguPf4jPGYipTlNYzj8zEFioerP00UGx2LvjDRz
-        IirQrq517+KJZzLvqyEuGj4tdI7wW5ntT+kAtWjNGB+/6W8f7hkj+1cbQc8uuXNh
-        gr2o4ObgvJdXBFSOE2Yd6Bp4YG/VG0IxHFc+OwFT4Mwpa8bOaR8=
-        =IDAi
-        -----END PGP PUBLIC KEY BLOCK-----
+    mQENBFH18vABCADqr55WHmv7NpWmQBBCI71koEKB7hNAdOJebc4IsqsVRuM+v3jq
+    SQycifgtYVlBes1JzvA/d29uslVt2ppVuUpU+runvyRiF2FHYjVrBkdovILo33oi
+    IgrpJpYrZI4p1QEvf+S8nvNVerlEXWONAVR1Pr0B00dFgXyv21sKoeTFU3+4x/4i
+    /UhF/kQX/09JUFiI9NlFFPVUMsD8mYUqU+P0zYfW86bcIUQ8o4IBWM0a/7+8NaHX
+    T287VooaHztdFF57AeUKH0jDMtdzgK4ohgYN+2jjaXxNlrSGKEjhNcA3K3CEOezi
+    e4PHAfQvuqw9YtmNeRB6YTIc2knY6D7zNlCBABEBAAG0J0pvaG4gUiBEaWV0cmlj
+    ayA8am9obkBqb2huZGlldHJpY2suY29tPokBOAQTAQIAIgUCUfXy8AIbAwYLCQgH
+    AwIGFQgCCQoLBBYCAwECHgECF4AACgkQqfBQsYI/NyCqngf+PVYjsciCRulnwVZH
+    jrw3Fa+H4z1cL2x4b5gk652aAAT2T1eqvW80+O6idD5EfXbMqSgqokx/9qIeRHlI
+    vGIhEtDyiBhICB7jMsvuSVkB2u17saHBUi40ULAq9fxFahWnr1Vl+99wlzUFgiOb
+    0ZXgVkC+ZRs5HoOe6HlFRlyIYq/fDa1ecos/i7YCNEKlEkb2df2+UqFRaeHWTGT2
+    xCzY7LnHRQv3i2F2ktThMlmR3Hwzatx+Xpm6jAV0HIF73RVficuOqeHaR6LireIw
+    FDNl8ro0b7fZOC6c+IwXwFwP5s5dYe87eV15dhgpOwfkRq3/fR/FooPBP3NJ+/jD
+    vxBlNrkBDQRR9fLwAQgAt2q1V4IchQxijPG/K/MrnlaoxppwV6BA1tdDsBq1KGUx
+    cdvQMDwC7LgotqRtFE4JYgHt81jeUUKBxmlCPg/BobS0QXB88ybsXmuzGnm5mzxY
+    3HY19KrMY4CkyfIwZ8wwWFKjgrLEev0TlyQRKlLS+1kOzazPEf2HGu+8kRl+UW+A
+    PW/sYflV9O6NRRsnElSsanc/oFtpM4Vy7UebisnlHVqoR6Z7oY0oU+TClVa0JRWQ
+    H02udknIqSGLSsZpgEz0uKuMgBKFDud+dZ0WtOMVLza9zCRYKvaLi2QUoEcIZo4g
+    vzyJs5rkVEiw7aGvsWTys7jwBdr1eJPu1zkEXuwxwwARAQABiQEfBBgBAgAJBQJR
+    9fLwAhsMAAoJEKnwULGCPzcggw8H/AgpA3nZDnIJxiLXv5eWIR8WzYUGWaEDP0kI
+    tUzy7TnzBvju95B8NpnVfliRMfQg6PksPWq9VN9qSmnw2+ww6y2cgNot14K7wMZQ
+    OMTrMsa6rs+PltG3h78Ra+Z6vx3YX6lM/vFV07N+BbfrnIDdDxwf4bBp7wNKOz6D
+    geGbdOBz9SeISKi/4QAf3XsEoAguPf4jPGYipTlNYzj8zEFioerP00UGx2LvjDRz
+    IirQrq517+KJZzLvqyEuGj4tdI7wW5ntT+kAtWjNGB+/6W8f7hkj+1cbQc8uuXNh
+    gr2o4ObgvJdXBFSOE2Yd6Bp4YG/VG0IxHFc+OwFT4Mwpa8bOaR8=
+    =IDAi
+    -----END PGP PUBLIC KEY BLOCK-----
 </code></pre>
 </div>
 </div>

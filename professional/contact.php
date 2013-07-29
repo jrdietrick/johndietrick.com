@@ -12,7 +12,7 @@ Email:<br/>
 <span style="color: #00CC00">john</span> /<strong>at</strong>/ <span style="color: #00CC00">johndietrick</span> /<strong>dot</strong>/ <span style="color: #00CC00">com</span>
 <br/><br/>
 GPG key:
-<pre class="sourceCode C"><code class="sourceCode C">    -----BEGIN PGP PUBLIC KEY BLOCK-----
+<pre class="sourceCode C" style="font-family: Consolas, monospace">    -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
 
     mQENBFH18vABCADqr55WHmv7NpWmQBBCI71koEKB7hNAdOJebc4IsqsVRuM+v3jq
@@ -42,7 +42,7 @@ GPG key:
     gr2o4ObgvJdXBFSOE2Yd6Bp4YG/VG0IxHFc+OwFT4Mwpa8bOaR8=
     =IDAi
     -----END PGP PUBLIC KEY BLOCK-----
-</code></pre>
+</pre>
 </div>
 </div>
 <?php include "../navbar.php" ?>

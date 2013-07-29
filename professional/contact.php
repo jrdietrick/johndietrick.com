@@ -11,7 +11,7 @@ If you're calling from...<br/>
 Email:<br/>
 <span style="color: #00CC00">john</span> /<strong>at</strong>/ <span style="color: #00CC00">johndietrick</span> /<strong>dot</strong>/ <span style="color: #00CC00">com</span>
 <br/><br/>
-GPG key:
+Crypto key:
 <pre class="sourceCode C" style="font-family: Consolas, monospace">    -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
 

@@ -12,8 +12,7 @@ Email:<br/>
 <span style="color: #00CC00">john</span> /<strong>at</strong>/ <span style="color: #00CC00">johndietrick</span> /<strong>dot</strong>/ <span style="color: #00CC00">com</span>
 <br/><br/>
 GPG key:
-<pre class="sourceCode C"><code class="sourceCode C">
-    -----BEGIN PGP PUBLIC KEY BLOCK-----
+<pre class="sourceCode C"><code class="sourceCode C">    -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
 
     mQENBFH18vABCADqr55WHmv7NpWmQBBCI71koEKB7hNAdOJebc4IsqsVRuM+v3jq

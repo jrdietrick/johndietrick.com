@@ -1,0 +1,15 @@
+body 
+{
+	background-color: #000000; 
+	color: #FFFFFF; 
+	font-family: Tahoma, Bitstream Vera Sans, Arial 
+}
+a
+{
+	color: #99FF99;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #00CC00;
+}

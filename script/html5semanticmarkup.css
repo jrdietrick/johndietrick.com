@@ -1,0 +1,142 @@
+body {
+    width: 960px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+body>header {
+    background: #666;
+    padding: 10px;
+    clear: both;
+}
+
+body>header hgroup h1 {
+    font-size: 3.0em;
+    color: #fff;
+    border: 1px #fff dashed;
+    padding: 10px;
+}
+
+body>header hgroup h2 {
+    font-size: 0.8em;
+    color: #fff;
+    font-style:italic;
+    padding: 5px;
+}
+
+body>footer {
+    background:#000;
+    padding:10px;
+    height:100px;
+    color:#fff;
+    clear:both;
+}
+
+nav {
+    height:25px;
+    padding: 2px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    clear:both;
+}
+
+nav ul {
+    padding:0; margin:0;
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    padding:5px;
+    display:block;
+    margin:0;
+}
+
+nav ul li a:hover {
+    background: #666;
+}
+
+body>article {
+    width:700px;
+    padding:10px;
+    float: left;
+}
+
+article>header {
+    border: 1px #666 dashed;
+    padding:10px;
+}
+
+article>header h1 {
+    color: #000;
+    font-size: 2.0em;
+}
+
+article>header time {
+    font-size: 0.7em;
+}
+
+article>footer {
+    border: 1px #666 dashed;
+    padding:10px;
+}
+
+section>header h1 {
+    font-size: 1.5em;
+    color: #666;
+}
+
+section>footer {
+    font-style: italic;
+}
+
+figure {
+    margin: 0 auto;
+    padding:20px;
+    width:500px;
+    text-align:center;
+    border:1px #ccc dashed;
+    clear:both;
+}
+
+figcaption {
+    display: block;
+    clear:both;
+    text-align: center;
+    font-style: italic;
+}
+
+figure img {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+body>aside {
+    width:200px;
+    padding:20px;
+    float: left;
+    background: #ccc;
+    color: #000;
+    font-size:0.8em;
+}
+
+aside>header h1 {
+    font-size: 1.5em;
+    color: #000;
+}

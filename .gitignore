@@ -1,4 +1,8 @@
 *.swp
 *~
-*.pyc
+
 venv/
+*.pyc
+
+*.css
+static/.webassets-cache

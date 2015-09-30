@@ -20,10 +20,12 @@ a {
     width: 962px;
     height: 452px;
     text-align: left;
+    overflow: auto;
     &.splash {
         background-repeat: no-repeat;
         background-position: center top;
         text-align: center;
+        overflow: hidden;
     }
     #splash_overlay {
         opacity: 0.0;
@@ -46,5 +48,24 @@ a {
         pointer-events: none;
         cursor: default;
         color: #00cc00;
+    }
+}
+.green {
+    color: #00cc00;
+}
+.green_muted {
+    color: #99ff99;
+}
+.italic {
+    font-style: italic;
+}
+.skill {
+    @extend .green_muted;
+    @extend .italic;
+}
+pre {
+    &.source_code {
+        font-family: Consolas, monospace;
+        margin-left: 48px;
     }
 }

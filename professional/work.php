@@ -2,8 +2,13 @@
 <body>
 <div style="overflow: auto; margin-left: auto; margin-right:auto; margin-top: 20px; border: 1px solid #FFFFFF; padding: 0px; width: 962px; height: 452px; text-align: left; overflow: auto">
 <div style="padding: 5px;">
+<i>Chief Technology Officer</i><br/>
+<strong><span style="color: #00CC00;">Gather Health (<a href="https://www.gatherhealth.com">https://gatherhealth.com</a>)</span></strong>, Beijing, PRC (Aug 2013 - present)<br/>
+<span style="font-size: 0.8em">- Leading Gather's dev team in our quest to change the way the world tackles chronic disease<br/>
+</span>
+<hr/>
 <i>Software Engineer</i><br/>
-<strong><span style="color: #00CC00;">Synerchip (d/b/a MultiMedia Crossing, Inc.)</span></strong>, Beijing, PRC (Jun 2012 - present)<br/>
+<strong><span style="color: #00CC00;">Synerchip (d/b/a MultiMedia Crossing, Inc.)</span></strong>, Beijing, PRC (Jun 2012 - Jul 2013)<br/>
 <span style="font-size: 0.8em">- Responsible for leading the architecture of our company's application middleware and core API platform<br/>
 - As-needed forays into application development/debugging (PC, iOS, Android) and embedded development (MIPS, Linux)<br/>
 - Extensive travel (China domestic and abroad) to promote, develop, and support our products with customers and vendors<br/>

@@ -1,0 +1,1 @@
+This repo is a small project to bring my (embarrassingly) handcrafted personal website into the present decade, while learning Flask -- as a counterpoint to my extensive experience with Django -- along the way.

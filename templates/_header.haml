@@ -1,0 +1,20 @@
+%html
+    %head
+        %title
+            John Dietrick
+            -if request.path.startswith('/about')
+                &nbsp;:: About
+            -if request.path.startswith('/skills')
+                &nbsp;:: Skills
+            -if request.path.startswith('/work')
+                &nbsp;:: Work History
+            -if request.path.startswith('/education')
+                &nbsp;:: Education
+            -if request.path.startswith('/contact')
+                &nbsp;:: Contact
+        -assets "css_all"
+            %link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"
+        -assets "js_all"
+            %script src="{{ ASSET_URL }}" type="text/javascript"
+    %body
+        -block body

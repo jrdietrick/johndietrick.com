@@ -1,6 +1,6 @@
-%html
-%head
-    -assets "css_all"
-        %link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"
-%body
-    Index
+-extends "_header.haml"
+-block body
+    %div.main_container.splash style="background-image: url('{{ url_for('static', filename='img/splash.png') }}');"
+        %a href="{{ url_for('about') }}"
+            %img#splash_overlay src="{{ url_for('static', filename='img/overlay.png') }}"
+    -include '_navbar.haml'

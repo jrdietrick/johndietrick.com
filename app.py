@@ -14,4 +14,7 @@ assets.url = app.static_url_path
 css_bundle = Bundle('css/base.scss', filters='scss', output='all.css')
 assets.register('css_all', css_bundle)
 
+js_bundle = Bundle('js/base.js', output='all.js')
+assets.register('js_all', js_bundle)
+
 import views

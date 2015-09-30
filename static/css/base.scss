@@ -1,13 +1,47 @@
 body {
     background-color: #000000;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: Tahoma, Bitstream Vera Sans, Arial;
 }
 a {
-    color: #99FF99;
+    color: #99ff99;
     text-decoration: none;
     &:hover
     {
-        color: #00CC00;
+        color: #00cc00;
+    }
+}
+.main_container {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+    padding: 0px;
+    width: 962px;
+    height: 452px;
+    text-align: left;
+    &.splash {
+        background-repeat: no-repeat;
+        background-position: center top;
+        text-align: center;
+    }
+    #splash_overlay {
+        opacity: 0.0;
+        filter: alpha(opacity=0);
+    }
+}
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 960px;
+    #title_link {
+        color: #ffffff;
+    }
+    .active {
+        font-weight: bold;
+        pointer-events: none;
+        cursor: default;
+        color: #00cc00;
     }
 }

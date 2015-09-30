@@ -11,10 +11,10 @@ app.jinja_env.add_extension(HamlishExtension)
 assets = Environment(app)
 assets.url = app.static_url_path
 
-css_bundle = Bundle('css/base.scss', filters='scss', output='all.css')
+css_bundle = Bundle('css/base.scss', filters='scss', output='.generated/all.css')
 assets.register('css_all', css_bundle)
 
-js_bundle = Bundle('js/base.js', output='all.js')
+js_bundle = Bundle('js/base.js', output='.generated/all.js')
 assets.register('js_all', js_bundle)
 
 import views

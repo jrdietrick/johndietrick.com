@@ -1,20 +1,15 @@
+from bundles import css_bundle, js_bundle
 from flask import Flask
-from flask.ext.assets import Environment, Bundle
+from flask.ext.assets import Environment
 from hamlish_jinja import HamlishExtension
 
 
 app = Flask(__name__)
 app.jinja_env.add_extension(HamlishExtension)
 
-
-# compile assets
 assets = Environment(app)
 assets.url = app.static_url_path
-
-css_bundle = Bundle('css/base.scss', filters='scss', output='.generated/all.css')
 assets.register('css_all', css_bundle)
-
-js_bundle = Bundle('js/base.js', output='.generated/all.js')
 assets.register('js_all', js_bundle)
 
 import views

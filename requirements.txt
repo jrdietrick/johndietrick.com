@@ -3,3 +3,8 @@ Flask==0.10.1
 Flask-Assets==0.11
 Hamlish-Jinja==0.3.2
 uWSGI
+
+# The machine on which you compile assets
+# (which is not necessarily the one that
+# will serve them) needs:
+# libsass>=0.8.3

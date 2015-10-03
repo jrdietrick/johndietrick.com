@@ -1,5 +1,11 @@
-from sassc import compile as sassc_compile
 from webassets.filter import Filter
+
+
+try:
+    from sassc import compile as sassc_compile
+except ImportError:
+    def sassc_compile(*args, **kwargs):
+        raise NotImplementedError
 
 
 class SasscFilter(Filter):

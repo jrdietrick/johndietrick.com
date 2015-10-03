@@ -1,4 +1,4 @@
-from fabric.api import run, env, local, cd, hosts
+from fabric.api import run, env, local, cd, hosts, put
 from fabric.colors import green, cyan, red, yellow
 
 
@@ -56,6 +56,13 @@ def deploy(branch=None):
         return
     print ''
 
+    # Compile assets locally
+    print cyan('Compiling assets...', bold=True)
+    local('rm -rf static/.webassets-cache')
+    local('rm -rf static/.generated')
+    local('. venv/bin/activate && python build_assets.py')
+    print ''
+
     # Push the latest code up
     _git_push(GIT_PATH, branch_to_push)
     print ''
@@ -66,6 +73,11 @@ def deploy(branch=None):
     with cd(APP_PATH):
         print yellow('Installing requirements...', bold=True)
         run('source venv/bin/activate && pip install -r requirements.txt')
+
+    print cyan('Uploading assets...', bold=True)
+    put('static/.webassets-cache/', APP_PATH + '/static/')
+    put('static/.generated/', APP_PATH + '/static/')
+    print ''
 
     _restart_uwsgi()
     print ''

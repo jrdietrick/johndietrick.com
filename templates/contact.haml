@@ -1,44 +1,30 @@
 -extends "_normal.haml"
 -block content
     If you're calling from...
-    %br
-    &nbsp;&nbsp;
-    %span.italic
-        China:
-    %br
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    %span.green
-        +86 186 0055 7450
-    &nbsp;(mobile)
-    %br
-    &nbsp;&nbsp;
-    %span.italic
-        anywhere else:
-    %br
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    %span.green
-        +1 206 414 8995
-    &nbsp;(VoIP) forwards to me, no matter what country I'm in
-    %br
-    %br
-    Email:
-    %br
-    %span.green
-        john
-    &nbsp;/
-    %strong
-        at
-    \/&nbsp;
-    %span.green
-        johndietrick
-    &nbsp;/
-    %strong
-        dot
-    \/&nbsp;
-    %span.green
-        com
-    %br
-    %br
+    %ul
+        %li
+            China:
+            %span.green
+                +86 186 0055 7450
+            (mobile)
+        %li
+            anywhere else:
+            %span.green
+                +1 206 414 8995
+            (VoIP) forwards to me, no matter where I am
+    %p
+    %p
+        Email:
+        %span.green
+            john
+        %strong
+            at
+        %span.green
+            johndietrick
+        %strong
+            dot
+        %span.green
+            com
     %pre.source_code
         |-----BEGIN PGP PUBLIC KEY BLOCK-----
         |Version: GnuPG v1.4.11 (GNU/Linux)

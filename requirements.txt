@@ -1,7 +1,7 @@
 Fabric>=1.10
 Flask==0.10.1
 Flask-Assets==0.11
-Hamlish-Jinja==0.3.2
+-e git+https://github.com/jrdietrick/hamlish-jinja.git@master#egg=hamlish-jinja
 uWSGI
 
 # The machine on which you compile assets

@@ -5,7 +5,11 @@ from hamlish_jinja import HamlishExtension
 
 
 app = Flask(__name__)
-app.jinja_env.add_extension(HamlishExtension)
+
+template_env = app.jinja_env
+template_env.add_extension(HamlishExtension)
+template_env.hamlish_mode = 'indented'
+template_env.hamlish_enable_div_shortcut = True
 
 assets = Environment(app)
 assets.url = app.static_url_path

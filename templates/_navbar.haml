@@ -2,20 +2,20 @@
     -if request.path != '/'
         %a class="{% if request.path.startswith('/about') %}active{% endif %}" href="{{ url_for('about') }}"
             About
-        &nbsp;||&nbsp;
+        \||
         %a class="{% if request.path.startswith('/skills') %}active{% endif %}" href="{{ url_for('skills') }}"
             Skills
-        &nbsp;::&nbsp;
+        ::
         %a class="{% if request.path.startswith('/work') %}active{% endif %}" href="{{ url_for('work') }}"
             Work History
-        &nbsp;::&nbsp;
+        ::
         %a class="{% if request.path.startswith('/education') %}active{% endif %}" href="{{ url_for('education') }}"
             Education
-        &nbsp;::&nbsp;
+        ::
         %a class="{% if request.path.startswith('/contact') %}active{% endif %}" href="{{ url_for('contact') }}"
             Contact
         %br
     %a#title_link href="{% if request.path == '/' %}{{ url_for('about') }}{% else %}{{ url_for('index') }}{% endif %}"
         %strong
             John Dietrick
-    &nbsp;:: Beijing
+    :: Beijing

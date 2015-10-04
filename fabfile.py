@@ -1,6 +1,27 @@
 from fabric.api import run, env, local, cd, hosts, put
 from fabric.colors import green, cyan, red, yellow
 
+# Some assumptions:
+#
+# * /opt/apps/johndietrick.com exists on the remote machine, is writable
+#   by the (SSH) user of this script, and is where the webserver (uWSGI)
+#   is serving from
+#
+# * /git/johndietrick.com.git is a bare git repo on the remote end
+#   (initialized empty with`git init --bare /git/johndietrick.com.git`).
+#   This repo *could* also act as your `origin`, but I'd really not
+#   recommend it. It only exists so we can push diffs rather than the whole
+#   codebase on each deploy.
+#
+# * uWSGI is your server of choice and it runs based on a configuration
+#   file uwsgi.ini, which if touched will cause the server to gracefully
+#   pick up changes.
+#
+# * The "let's locally compile assets and then put() them up" solution is
+#   a hack because I couldn't get libsass (the C++ lib) to compile on my
+#   VPS server -- not enough RAM. If you have a server with more than 64kB
+#   of RAM, that should be enough for anyone... so you may not need those
+#   parts.
 
 APPS_BASE_DIR = '/opt/apps/'
 APP_NAME      = 'johndietrick.com'
